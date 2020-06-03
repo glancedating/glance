@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Glance</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+    <div class="blobs">
+        <img id="blob1" src="img/blob1.svg">
+        <img id="blob2" src="img/blob2.svg">
+        <img id="blob3" src="img/blob3.svg">
+    </div>
+    <div id="page-container">
+        <div id="content-wrap">
+            <a href="index.html"><img src="img/beta-mark.png" id="logo"></a>
+            <h1 id="contact-header">
+        Contact us 
+    </h1>
+            <!--<?php
+$action=$_REQUEST['action'];
+if ($action=="")    /* display the contact form */
+    {
+    ?>-->
+            <form action="https://formspree.io/xyynzwwd" method="POST">
+                <input type="hidden" name="action" value="submit"> Your name:
+                <br>
+                <input name="name" type="text" value="" size="30" />
+                <br> Your email:
+                <br>
+                <input name="email" type="text" value="" size="30" />
+                <br> Your message:
+                <br>
+                <textarea name="message" rows="4" cols="30"></textarea>
+                <br>
+                <div class="submit">
+                    <input class="submit-button" type="submit" />
+                </div>
+            </form>
+            <!--
+                <?php
+    } 
+else                /* send the submitted data */
+    {
+    $name=$_REQUEST['name'];
+    $email=$_REQUEST['email'];
+    $message=$_REQUEST['message'];
+    if (($name=="")||($email=="")||($message==""))
+        {
+        echo "All fields are required, please fill the form again.";
+        }
+    else{        
+        $from="From: $name{$email}\r\nReturn-path: $email";
+        $subject="Message sent using your contact form";
+        mail("your@email.com", $subject, $message, $from);
+        echo "Email sent!";
+        }
+    }  
+?>
+
+-->
+
+
+
+
+        </div>
+        <div id="bottom-section">
+            <footer id="footer-links">
+                <a href="privacy.html" id="privacy">Privacy Policy</a>
+                <a href="terms.html" id="terms">Terms &amp; Conditions</a>
+                <a href="contact.html" id="contact">Contact us</a>
+            </footer>
+            <footer id="copyright">
+                <p>&copy; 2020 Glance, All Rights Reserved</p>
+            </footer>
+        </div>
+        <script>
+            /* don't touch this */
+
+        </script>
+
+    </div>
+</body>
+
+
+
+</html>

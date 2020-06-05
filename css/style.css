@@ -1,6 +1,5 @@
                 * {
                     margin: 0 auto;
-                    padding: 0px;
                     box-sizing: border-box;
                 }
                 html {
@@ -462,7 +461,8 @@
                     font-size: 1.4em;
                 }
                 #how {
-                    margin-top: 100px;
+                    border-top: 20px solid transparent;
+                    margin-top: 75px;
                     margin-bottom: 0px;
                 }
                 #how p {

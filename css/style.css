@@ -67,7 +67,8 @@
                     border: solid 2px transparent;
                     border-radius: 50px;
                     padding: 12px 40px;
-                    width: 250px;
+                    /*width: 250px;*/
+                    width: 300px;
                     /*height: 80px;*/
                     height: 50px;
                     position: relative;
@@ -98,14 +99,16 @@
                     margin-top: 10px;
                     font-size: 2em;
                     content: "\e8a7";
-                }
+                }*/
+                
                 .app-store-content {
-                    font-size: 1em;
+                    /*font-size: 1em;*/
+                    font-size: 1.4em;
                     margin: 0px;
                 }
                 .apple-store {
                     font-size: 1.2em
-                }*/
+                }
                 /* second button */
                 
                 .app-link2 {
@@ -125,7 +128,8 @@
                     border: solid 2px transparent;
                     border-radius: 50px;
                     padding: 12px 40px;
-                    width: 250px;
+                    /*width: 250px;*/
+                    width: 300px;
                     /*height: 80px;*/
                     height: 50px;
                     position: relative;
@@ -159,7 +163,8 @@
                 }*/
                 
                 .app-store-content2 {
-                    font-size: 1rem;
+                    /*font-size: 1rem;*/
+                    font-size: 1.4rem;
                     line-height: 1.5rem;
                     margin: 0px;
                 }

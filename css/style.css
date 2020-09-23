@@ -68,7 +68,8 @@
                     border-radius: 50px;
                     padding: 12px 40px;
                     width: 250px;
-                    height: 80px;
+                    /*height: 80px;*/
+                    height: 50px;
                     position: relative;
                     transition: 0.3s;
                 }
@@ -91,7 +92,7 @@
                     background-color: transparent;
                     color: white;
                 }
-                .app-store-content::before {
+                /*.app-store-content::before {
                     font-family: "Icofont";
                     float: left;
                     margin-top: 10px;
@@ -104,7 +105,7 @@
                 }
                 .apple-store {
                     font-size: 1.2em
-                }
+                }*/
                 /* second button */
                 
                 .app-link2 {
@@ -125,7 +126,8 @@
                     border-radius: 50px;
                     padding: 12px 40px;
                     width: 250px;
-                    height: 80px;
+                    /*height: 80px;*/
+                    height: 50px;
                     position: relative;
                     transition: 0.3s;
                 }
@@ -148,13 +150,14 @@
                     background-color: transparent;
                     color: white;
                 }
-                .app-store-content2::before {
+                /*.app-store-content2::before {
                     font-family: "Icofont";
                     float: left;
                     margin-top: 10px;
                     font-size: 2em;
                     content: "\e8a7";
-                }
+                }*/
+                
                 .app-store-content2 {
                     font-size: 1rem;
                     line-height: 1.5rem;

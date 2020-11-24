@@ -109,7 +109,7 @@
                     margin: 0px;
                 }
                 .apple-store {
-                    font-size: 1.2em
+                    font-size: 1.4em
                 }
                 /* second button */
                 
@@ -404,7 +404,6 @@
                     border: solid 3px #FCF0F7;
                     border-radius: 50px;
                     font-family: Poppins;
-                    font-size: 1em;
                     width: 250px;
                 }
                 form textarea {

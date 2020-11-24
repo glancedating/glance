@@ -100,6 +100,7 @@
                 </div>
                 <p class="how-text">This new way of dating will help you form more meaningful connections while also adding a bit of excitement to the dating process. Don’t forget to share our app with friends and stay safe! ❤</p>
             </section> -->
+            </section>
             <!--second button-->
             <a href="http://bit.ly/glancebetatest" class="app-link2">
                 <div class="app-store2">
@@ -121,42 +122,44 @@
                 <p>&copy; 2020 Glance, All Rights Reserved</p>
 
             </footer>
-        </div>
 
 
-        <!-- smooth scroll -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                // Add smooth scrolling to all links
-                $("a").on('click', function(event) {
 
-                    // Make sure this.hash has a value before overriding default behavior
-                    if (this.hash !== "") {
-                        // Prevent default anchor click behavior
-                        event.preventDefault();
+            <!-- smooth scroll -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script>
+                $(document).ready(function() {
+                    // Add smooth scrolling to all links
+                    $("a").on('click', function(event) {
 
-                        // Store hash
-                        var hash = this.hash;
+                        // Make sure this.hash has a value before overriding default behavior
+                        if (this.hash !== "") {
+                            // Prevent default anchor click behavior
+                            event.preventDefault();
 
-                        // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top
-                        }, 800, function() {
+                            // Store hash
+                            var hash = this.hash;
 
-                            // Add hash (#) to URL when done scrolling (default click behavior)
-                            window.location.hash = hash;
-                        });
-                    } // End if
+                            // Using jQuery's animate() method to add smooth page scroll
+                            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                            $('html, body').animate({
+                                scrollTop: $(hash).offset().top
+                            }, 800, function() {
+
+                                // Add hash (#) to URL when done scrolling (default click behavior)
+                                window.location.hash = hash;
+                            });
+                        } // End if
+                    });
                 });
-            });
 
-        </script>
-        <script>
-            /* don't touch this */
+            </script>
+            <script>
+                /* don't touch this */
 
-        </script>
+            </script>
+
+        </div>
     </div>
 </body>
 
